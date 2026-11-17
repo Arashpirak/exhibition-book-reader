@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# PyInstaller build output (the exe is >100 MB: publish it as a GitHub Release asset instead)
+build/
+dist/*
+!dist/HOW TO USE.txt
+
+# Run results and local settings
+output/
+settings.json
+*.accdb
+*.laccdb
+~$*.xlsx
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

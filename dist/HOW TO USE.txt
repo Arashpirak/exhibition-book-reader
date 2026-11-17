@@ -1,0 +1,47 @@
+EXHIBITION BOOK READER — how to use
+===================================
+
+What it does
+  Reads photos of the China Import and Export Fair exhibitor catalog pages and
+  saves every exhibitor (booth, Chinese/English name, address, postcode, tel,
+  fax, e-mail, website, category, page) into an Excel file.
+  Everything runs on your laptop. No internet and no installation needed.
+
+Needs
+  Windows 10 or 11, 64-bit. About 300 MB of free disk space.
+
+Steps
+  1. Put ExhibitionBookReader.exe anywhere (Desktop or Documents is fine).
+  2. Double-click it. The first start takes 5-10 seconds (a small
+     "Exhibition Book Reader" splash shows while it unpacks).
+  3. "Photos folder" -> Browse... -> choose the folder with the page photos
+     (.jpg / .jpeg / .png). The window shows how many photos it found.
+     Tip: if the exe sits in the same folder as the photos, it is already chosen.
+  4. "Save to" is filled in for you (an "output" folder inside the photos folder).
+  5. Press Start (or F5). It takes about 25 seconds per photo.
+     Press Stop (or Esc) to stop after the current photo.
+  6. When it is done, press "Open Excel file".
+
+Taking good photos
+  - One page per photo, the whole page in the frame, upright, in focus.
+  - Good, even light; avoid strong shadows across the text.
+  - Name the files so they sort in page order (the camera's date/time names do).
+    A company whose details continue on the next page is joined automatically
+    only when the pages are read in order.
+
+Checking the results
+  - Click a row to see all its fields and the exact text that was read.
+  - Rows highlighted in yellow need a second look (something is missing or the
+    text was hard to read). "Needs review only" shows just those rows.
+  - OCR is good but not perfect: a letter can occasionally be wrong in a name.
+
+If Windows warns you
+  - "Windows protected your PC" (SmartScreen): click "More info" -> "Run anyway".
+    The program is not signed by a publisher, that is all the warning means.
+  - If an antivirus quarantines it, restore it / allow it. Programs packed this
+    way are sometimes flagged by mistake.
+
+Access (.accdb) output
+  Only available when Microsoft Access (or the free "Microsoft Access Database
+  Engine", 64-bit) is installed. Otherwise the Access box is greyed out and
+  only the Excel file is written — the Excel file has the same data.

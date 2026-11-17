@@ -1,0 +1,12 @@
+rapidocr_onnxruntime
+opencv-python-headless
+pillow
+numpy
+openpyxl
+pyodbc
+pywin32
+pytest
+# optional (claude OCR engine)
+anthropic
+# optional: build the stand-alone exe (see README)
+pyinstaller
